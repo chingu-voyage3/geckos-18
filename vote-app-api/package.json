@@ -1,0 +1,21 @@
+{
+  "name": "vote-app-api",
+  "version": "0.0.1",
+  "description": "Api for the Voting App",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": "https://github.com/chingu-voyage3/geckos-18.git",
+  "author": "geckos-18",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.14.8"
+  },
+  "prettier": {
+    "semi": false
+  }
+}
